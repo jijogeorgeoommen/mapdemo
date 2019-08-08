@@ -3,19 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B28CFB622F95C2B002E040E /* BMGooglePlaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B28CFB522F95C2B002E040E /* BMGooglePlaces.m */; };
+		2B598C9722F954E3001CF9B1 /* SPGooglePlacesAutocompleteQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B598C8F22F954E3001CF9B1 /* SPGooglePlacesAutocompleteQuery.m */; };
+		2B598C9822F954E3001CF9B1 /* SPGooglePlacesAutocompleteUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B598C9122F954E3001CF9B1 /* SPGooglePlacesAutocompleteUtilities.m */; };
+		2B598C9922F954E3001CF9B1 /* SPGooglePlacesPlaceDetailQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B598C9222F954E3001CF9B1 /* SPGooglePlacesPlaceDetailQuery.m */; };
+		2B598C9A22F954E3001CF9B1 /* SPGooglePlacesAutocompletePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B598C9622F954E3001CF9B1 /* SPGooglePlacesAutocompletePlace.m */; };
+		2B598CA022F95657001CF9B1 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B598C9B22F95656001CF9B1 /* GoogleMapsBase.framework */; };
+		2B598CA122F95657001CF9B1 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B598C9C22F95656001CF9B1 /* GooglePlaces.framework */; };
+		2B598CA222F95657001CF9B1 /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B598C9D22F95657001CF9B1 /* GooglePlacePicker.framework */; };
+		2B598CA322F95657001CF9B1 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B598C9E22F95657001CF9B1 /* GoogleMapsCore.framework */; };
+		2B598CA422F95657001CF9B1 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B598C9F22F95657001CF9B1 /* GoogleMaps.framework */; };
+		2BC325D122F89BF80085D472 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2BC325D022F89BF80085D472 /* podfile */; };
 		2BCD776F22F88DD600F8094B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD776E22F88DD600F8094B /* AppDelegate.swift */; };
 		2BCD777122F88DD600F8094B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD777022F88DD600F8094B /* ViewController.swift */; };
 		2BCD777422F88DD600F8094B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD777222F88DD600F8094B /* Main.storyboard */; };
 		2BCD777722F88DD600F8094B /* mapdemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD777522F88DD600F8094B /* mapdemo.xcdatamodeld */; };
 		2BCD777922F88DD700F8094B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD777822F88DD700F8094B /* Assets.xcassets */; };
 		2BCD777C22F88DD700F8094B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD777A22F88DD700F8094B /* LaunchScreen.storyboard */; };
+		569C9056EF799F360BAD0140 /* libPods-mapdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 422E9C5076356FF8EEB343D5 /* libPods-mapdemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B28CFB522F95C2B002E040E /* BMGooglePlaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMGooglePlaces.m; sourceTree = "<group>"; };
+		2B598C8E22F954E2001CF9B1 /* mapdemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mapdemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B598C8F22F954E3001CF9B1 /* SPGooglePlacesAutocompleteQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesAutocompleteQuery.m; path = ../../../../../Downloads/Taskmap/SPGooglePlaces/SPGooglePlacesAutocompleteQuery.m; sourceTree = "<group>"; };
+		2B598C9022F954E3001CF9B1 /* SPGooglePlacesAutocompletePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesAutocompletePlace.h; path = ../../../../../Downloads/Taskmap/SPGooglePlaces/SPGooglePlacesAutocompletePlace.h; sourceTree = "<group>"; };
+		2B598C9122F954E3001CF9B1 /* SPGooglePlacesAutocompleteUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesAutocompleteUtilities.m; path = ../../../../../Downloads/Taskmap/SPGooglePlaces/SPGooglePlacesAutocompleteUtilities.m; sourceTree = "<group>"; };
+		2B598C9222F954E3001CF9B1 /* SPGooglePlacesPlaceDetailQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesPlaceDetailQuery.m; path = ../../../../../Downloads/Taskmap/SPGooglePlaces/SPGooglePlacesPlaceDetailQuery.m; sourceTree = "<group>"; };
+		2B598C9322F954E3001CF9B1 /* SPGooglePlacesAutocompleteUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesAutocompleteUtilities.h; path = ../../../../../Downloads/Taskmap/SPGooglePlaces/SPGooglePlacesAutocompleteUtilities.h; sourceTree = "<group>"; };
+		2B598C9422F954E3001CF9B1 /* SPGooglePlacesAutocompleteQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesAutocompleteQuery.h; path = ../../../../../Downloads/Taskmap/SPGooglePlaces/SPGooglePlacesAutocompleteQuery.h; sourceTree = "<group>"; };
+		2B598C9522F954E3001CF9B1 /* SPGooglePlacesPlaceDetailQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesPlaceDetailQuery.h; path = ../../../../../Downloads/Taskmap/SPGooglePlaces/SPGooglePlacesPlaceDetailQuery.h; sourceTree = "<group>"; };
+		2B598C9622F954E3001CF9B1 /* SPGooglePlacesAutocompletePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesAutocompletePlace.m; path = ../../../../../Downloads/Taskmap/SPGooglePlaces/SPGooglePlacesAutocompletePlace.m; sourceTree = "<group>"; };
+		2B598C9B22F95656001CF9B1 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = ../../../Downloads/Taskmap/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		2B598C9C22F95656001CF9B1 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = ../../../Downloads/Taskmap/GooglePlaces.framework; sourceTree = "<group>"; };
+		2B598C9D22F95657001CF9B1 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = ../../../Downloads/Taskmap/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		2B598C9E22F95657001CF9B1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = ../../../Downloads/Taskmap/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		2B598C9F22F95657001CF9B1 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = ../../../Downloads/Taskmap/GoogleMaps.framework; sourceTree = "<group>"; };
+		2B598CA622F95718001CF9B1 /* BMGooglePlaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMGooglePlaces.h; sourceTree = "<group>"; };
+		2BC325D022F89BF80085D472 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2BCD776B22F88DD600F8094B /* mapdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCD776E22F88DD600F8094B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BCD777022F88DD600F8094B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +53,9 @@
 		2BCD777822F88DD700F8094B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BCD777B22F88DD700F8094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BCD777D22F88DD700F8094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422E9C5076356FF8EEB343D5 /* libPods-mapdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF77F69580B8637F34F3D6C1 /* Pods-mapdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapdemo.debug.xcconfig"; path = "Target Support Files/Pods-mapdemo/Pods-mapdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D627A6258EDF78426331A6 /* Pods-mapdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapdemo.release.xcconfig"; path = "Target Support Files/Pods-mapdemo/Pods-mapdemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B598CA422F95657001CF9B1 /* GoogleMaps.framework in Frameworks */,
+				2B598CA122F95657001CF9B1 /* GooglePlaces.framework in Frameworks */,
+				569C9056EF799F360BAD0140 /* libPods-mapdemo.a in Frameworks */,
+				2B598CA322F95657001CF9B1 /* GoogleMapsCore.framework in Frameworks */,
+				2B598CA022F95657001CF9B1 /* GoogleMapsBase.framework in Frameworks */,
+				2B598CA222F95657001CF9B1 /* GooglePlacePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B598C8C22F954A9001CF9B1 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				2B28CFB522F95C2B002E040E /* BMGooglePlaces.m */,
+				2B598CA622F95718001CF9B1 /* BMGooglePlaces.h */,
+				2B598C8D22F954B3001CF9B1 /* SPGooglePlaces */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		2B598C8D22F954B3001CF9B1 /* SPGooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				2B598C9022F954E3001CF9B1 /* SPGooglePlacesAutocompletePlace.h */,
+				2B598C9622F954E3001CF9B1 /* SPGooglePlacesAutocompletePlace.m */,
+				2B598C9422F954E3001CF9B1 /* SPGooglePlacesAutocompleteQuery.h */,
+				2B598C8F22F954E3001CF9B1 /* SPGooglePlacesAutocompleteQuery.m */,
+				2B598C9322F954E3001CF9B1 /* SPGooglePlacesAutocompleteUtilities.h */,
+				2B598C9122F954E3001CF9B1 /* SPGooglePlacesAutocompleteUtilities.m */,
+				2B598C9522F954E3001CF9B1 /* SPGooglePlacesPlaceDetailQuery.h */,
+				2B598C9222F954E3001CF9B1 /* SPGooglePlacesPlaceDetailQuery.m */,
+				2B598C8E22F954E2001CF9B1 /* mapdemo-Bridging-Header.h */,
+			);
+			path = SPGooglePlaces;
+			sourceTree = "<group>";
+		};
 		2BCD776222F88DD600F8094B = {
 			isa = PBXGroup;
 			children = (
+				2B598C8C22F954A9001CF9B1 /* External */,
+				2BC325D022F89BF80085D472 /* podfile */,
 				2BCD776D22F88DD600F8094B /* mapdemo */,
 				2BCD776C22F88DD600F8094B /* Products */,
+				B9745C1BBFC9658BD585CF5C /* Pods */,
+				42DCBBAA72C3F325FC3E3747 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +135,28 @@
 			path = mapdemo;
 			sourceTree = "<group>";
 		};
+		42DCBBAA72C3F325FC3E3747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B598C9F22F95657001CF9B1 /* GoogleMaps.framework */,
+				2B598C9B22F95656001CF9B1 /* GoogleMapsBase.framework */,
+				2B598C9E22F95657001CF9B1 /* GoogleMapsCore.framework */,
+				2B598C9D22F95657001CF9B1 /* GooglePlacePicker.framework */,
+				2B598C9C22F95656001CF9B1 /* GooglePlaces.framework */,
+				422E9C5076356FF8EEB343D5 /* libPods-mapdemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9745C1BBFC9658BD585CF5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF77F69580B8637F34F3D6C1 /* Pods-mapdemo.debug.xcconfig */,
+				E0D627A6258EDF78426331A6 /* Pods-mapdemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BCD778022F88DD700F8094B /* Build configuration list for PBXNativeTarget "mapdemo" */;
 			buildPhases = (
+				F3D704DB88E59F6A328D7C15 /* [CP] Check Pods Manifest.lock */,
 				2BCD776722F88DD600F8094B /* Sources */,
 				2BCD776822F88DD600F8094B /* Frameworks */,
 				2BCD776922F88DD600F8094B /* Resources */,
+				1C86363D38723BC4D0F222EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +191,7 @@
 				TargetAttributes = {
 					2BCD776A22F88DD600F8094B = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -127,20 +220,68 @@
 			files = (
 				2BCD777C22F88DD700F8094B /* LaunchScreen.storyboard in Resources */,
 				2BCD777922F88DD700F8094B /* Assets.xcassets in Resources */,
+				2BC325D122F89BF80085D472 /* podfile in Resources */,
 				2BCD777422F88DD600F8094B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C86363D38723BC4D0F222EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mapdemo/Pods-mapdemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mapdemo/Pods-mapdemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mapdemo/Pods-mapdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D704DB88E59F6A328D7C15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapdemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BCD776722F88DD600F8094B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B598C9922F954E3001CF9B1 /* SPGooglePlacesPlaceDetailQuery.m in Sources */,
+				2B598C9722F954E3001CF9B1 /* SPGooglePlacesAutocompleteQuery.m in Sources */,
+				2B598C9A22F954E3001CF9B1 /* SPGooglePlacesAutocompletePlace.m in Sources */,
+				2B598C9822F954E3001CF9B1 /* SPGooglePlacesAutocompleteUtilities.m in Sources */,
 				2BCD777122F88DD600F8094B /* ViewController.swift in Sources */,
 				2BCD777722F88DD600F8094B /* mapdemo.xcdatamodeld in Sources */,
 				2BCD776F22F88DD600F8094B /* AppDelegate.swift in Sources */,
+				2B28CFB622F95C2B002E040E /* BMGooglePlaces.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +425,10 @@
 		};
 		2BCD778122F88DD700F8094B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF77F69580B8637F34F3D6C1 /* Pods-mapdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZJVGGN33ZQ;
 				INFOPLIST_FILE = mapdemo/Info.plist;
@@ -295,6 +438,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JIJO.mapdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "External/SPGooglePlaces/mapdemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,8 +447,10 @@
 		};
 		2BCD778222F88DD700F8094B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D627A6258EDF78426331A6 /* Pods-mapdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZJVGGN33ZQ;
 				INFOPLIST_FILE = mapdemo/Info.plist;
@@ -313,6 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JIJO.mapdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "External/SPGooglePlaces/mapdemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

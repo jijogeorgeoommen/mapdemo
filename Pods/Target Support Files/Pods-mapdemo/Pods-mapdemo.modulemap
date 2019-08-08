@@ -1,0 +1,6 @@
+framework module Pods_mapdemo {
+  umbrella header "Pods-mapdemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
